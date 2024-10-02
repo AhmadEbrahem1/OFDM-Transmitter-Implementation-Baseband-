@@ -1,0 +1,544 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Serial_to_Paralel
+T_opt
+!s110 1727534419
+VBJ@N2KWF9f_d4nH0TzH232
+04 8 4 work OFDM_TOP fast 0
+=2-089798a3a573-66f81552-39c-4d40
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7c;67
+R0
+T_opt1
+!s110 1727641488
+Vo2S618f^Rgli6oS3eegbC2
+04 11 4 work OFDM_TOP_TB fast 0
+=24-089798a3a573-66f9b78f-3b4-268c
+R1
+R2
+n@_opt1
+R3
+R0
+vButterfly_PU
+Z4 !s110 1727881636
+!i10b 1
+!s100 W>@f]f9i<?SD=X_T@S;HZ1
+I1E]3K@BALnPjI^UJUJHcg3
+Z5 VDg1SIo80bB@j0V0VzS_@n1
+Z6 dD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/TOP
+w1725216252
+8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Butterfly_PU.v
+FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Butterfly_PU.v
+L0 1
+Z7 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z8 !s108 1727881636.000000
+!s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Butterfly_PU.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Butterfly_PU.v|
+!i113 0
+Z9 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@butterfly_@p@u
+vClkDiv
+Z10 !s110 1727881637
+!i10b 1
+!s100 lH<m`RXAB3IiBQ?nQe<`e1
+IDMfFjaRS=ic3D8himA4=e1
+R5
+R6
+w1694341676
+8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Clock_Divider/ClkDiv.v
+FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Clock_Divider/ClkDiv.v
+L0 2
+R7
+r1
+!s85 0
+31
+Z11 !s108 1727881637.000000
+!s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Clock_Divider/ClkDiv.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Clock_Divider/ClkDiv.v|
+!i113 0
+R9
+R2
+n@clk@div
+vcomplex_multiplier
+Z12 DXx6 sv_std 3 std 0 22 d=_JfHTnXCN[H5FjiaJJc0
+R4
+!i10b 1
+!s100 oL?i4OHE[WO4VndBRa1n`2
+IoYbQ?ME<7k3TZ6UdUh?iY1
+R5
+!s105 complex_multiplier_sv_unit
+S1
+R6
+w1725277363
+8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/complex_multiplier.sv
+FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/complex_multiplier.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/complex_multiplier.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/complex_multiplier.sv|
+!i113 0
+Z13 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vConst_Multiplier
+R12
+R4
+!i10b 1
+!s100 [k8?BC]gL=UDeNdKB]:h[1
+I?HT^U;hf:M=:kX3GfH5Mn1
+R5
+!s105 Const_Multiplier_sv_unit
+S1
+R6
+w1727301412
+8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Const_Multiplier.sv
+FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Const_Multiplier.sv
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Const_Multiplier.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Const_Multiplier.sv|
+!i113 0
+R13
+R2
+n@const_@multiplier
+vCyclic_Prefix
+R12
+R4
+!i10b 1
+!s100 T5F:=L8KCMXi58IH24hH[2
+I8?Z2o2`Jff@m3K<]E@cE<0
+R5
+Z14 !s105 Cyclic_Prefix_sv_unit
+S1
+R6
+Z15 w1727531951
+Z16 8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/CP/Cyclic_Prefix.sv
+Z17 FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/CP/Cyclic_Prefix.sv
+L0 1
+R7
+r1
+!s85 0
+31
+Z18 !s108 1727881635.000000
+Z19 !s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/CP/Cyclic_Prefix.sv|
+Z20 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/CP/Cyclic_Prefix.sv|
+!i113 0
+R13
+R2
+n@cyclic_@prefix
+vfft_tb
+R12
+R4
+!i10b 1
+!s100 nHjl`98f[C][`m2ciO@IZ1
+ICRA_===A7eW1N691n_Z^W3
+R5
+!s105 TEST_tb_sv_unit
+S1
+R6
+w1727381083
+8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/TEST_tb.sv
+FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/TEST_tb.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/TEST_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/TEST_tb.sv|
+!i113 0
+R13
+R2
+vIFFT_TOP
+R12
+R4
+!i10b 1
+!s100 ?a[LDzlPb`Ef;HbiibHTL0
+IBZ0T>C891=SSz]1oPE1T43
+R5
+!s105 IFFT_TOP_sv_unit
+S1
+R6
+w1727380824
+8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/IFFT_TOP.sv
+FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/IFFT_TOP.sv
+L0 3
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/IFFT_TOP.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/IFFT_TOP.sv|
+!i113 0
+R13
+R2
+n@i@f@f@t_@t@o@p
+vLoadable_Counter
+R12
+R10
+!i10b 1
+!s100 ?ES5GL_TFU1>Z^]iU=;Za1
+I5jeJbF]@]Q[M=218EL5PH3
+R5
+Z21 !s105 Loadable_Counter_sv_unit
+S1
+R6
+Z22 w1727628706
+Z23 8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Loadable_Counter.sv
+Z24 FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Loadable_Counter.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+Z25 !s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Loadable_Counter.sv|
+Z26 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Loadable_Counter.sv|
+!i113 0
+R13
+R2
+n@loadable_@counter
+vLoadable_Counter_tb
+R12
+R10
+!i10b 1
+!s100 4ddz@Aag8^9lbBE>aDnLR2
+I]Som;A^ei3ESo?:@ej7823
+R5
+R21
+S1
+R6
+R22
+R23
+R24
+L0 50
+R7
+r1
+!s85 0
+31
+R11
+R25
+R26
+!i113 0
+R13
+R2
+n@loadable_@counter_tb
+vOFDM_TOP
+R12
+R10
+!i10b 1
+!s100 78DPTYn:;dg7OOlRi6Y>N2
+I3ALeB]BPUd=5jAmG33<c01
+R5
+Z27 !s105 OFDM_TOP_sv_unit
+S1
+R6
+Z28 w1727641478
+Z29 8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/TOP/OFDM_TOP.sv
+Z30 FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/TOP/OFDM_TOP.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+Z31 !s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/TOP/OFDM_TOP.sv|
+Z32 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/TOP/OFDM_TOP.sv|
+!i113 0
+R13
+R2
+n@o@f@d@m_@t@o@p
+vOFDM_TOP_TB
+R12
+R10
+!i10b 1
+!s100 SB93J27IzRKP?]h`O8l`b2
+ISH:ZI`7jTz46NfZ6E>T:62
+R5
+R27
+S1
+R6
+R28
+R29
+R30
+L0 286
+R7
+r1
+!s85 0
+31
+R11
+R31
+R32
+!i113 0
+R13
+R2
+n@o@f@d@m_@t@o@p_@t@b
+vParallel_To_Serial
+R12
+R10
+!i10b 1
+!s100 =meRS>Sz11TMheTZf`BBH2
+Id:C`eL9J4>BWZb>8PlYJ80
+R5
+Z33 !s105 Parallel_To_Serial_sv_unit
+S1
+R6
+Z34 w1727622481
+Z35 8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/parallel_to_Serial/Parallel_To_Serial.sv
+Z36 FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/parallel_to_Serial/Parallel_To_Serial.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+Z37 !s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/parallel_to_Serial/Parallel_To_Serial.sv|
+Z38 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/parallel_to_Serial/Parallel_To_Serial.sv|
+!i113 0
+R13
+R2
+n@parallel_@to_@serial
+vParallel_To_Serial_tb
+R12
+R10
+!i10b 1
+!s100 RLnTZGo5zOaTg^@YG@J@H0
+IVV<A:H`;5TJn<E6Qg0jAE1
+R5
+R33
+S1
+R6
+R34
+R35
+R36
+L0 49
+R7
+r1
+!s85 0
+31
+R11
+R37
+R38
+!i113 0
+R13
+R2
+n@parallel_@to_@serial_tb
+vPG
+R12
+R10
+!i10b 1
+!s100 WFM0ggieii<226jP=eZ2f0
+I<;7DZO@`I;AX9P@m6WH:92
+R5
+!s105 PG_sv_unit
+S1
+R6
+w1727634860
+8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/PG.sv
+FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/PG.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/PG.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/PG.sv|
+!i113 0
+R13
+R2
+n@p@g
+vPULSE_GEN
+R10
+!i10b 1
+!s100 [XlHi9c2:7K5H@Ij^mWX?2
+I1=_4QMLF[ma?kMY>^K_2M2
+R5
+R6
+w1695158330
+8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Pulse_Gen.v
+FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Pulse_Gen.v
+L0 2
+R7
+r1
+!s85 0
+31
+R11
+!s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Pulse_Gen.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Pulse_Gen.v|
+!i113 0
+R9
+R2
+n@p@u@l@s@e_@g@e@n
+vQPSK_mod
+R12
+R10
+!i10b 1
+!s100 CiQk@hk^>zkMMZBjIE?Y@1
+I5WIJg1Jn]fIH6Aa9b>Dd53
+R5
+Z39 !s105 QPSK_mod_sv_unit
+S1
+R6
+Z40 w1727615827
+Z41 8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/moduulation/QPSK_mod.sv
+Z42 FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/moduulation/QPSK_mod.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+Z43 !s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/moduulation/QPSK_mod.sv|
+Z44 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/moduulation/QPSK_mod.sv|
+!i113 0
+R13
+R2
+n@q@p@s@k_mod
+vqpsk_mod_TB
+R12
+R10
+!i10b 1
+!s100 fg]3zjg_UDY]cbbzRK2i_2
+IKKX53bjL[V0gdJJNb7FT]0
+R5
+R39
+S1
+R6
+R40
+R41
+R42
+L0 128
+R7
+r1
+!s85 0
+31
+R11
+R43
+R44
+!i113 0
+R13
+R2
+nqpsk_mod_@t@b
+vReg_enabled
+R12
+R4
+!i10b 1
+!s100 `JNW>57a<aH5=^ZEMW^_81
+IESZOaM8EI<SQRIlADEoWT2
+R5
+!s105 Reg_enabled_sv_unit
+S1
+R6
+w1725216259
+8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Reg_enabled.sv
+FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Reg_enabled.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R8
+!s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Reg_enabled.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Reg_enabled.sv|
+!i113 0
+R13
+R2
+n@reg_enabled
+vSerial_To_Parallel
+R12
+R10
+!i10b 1
+!s100 1DTiIC8SDb7P=gBfVkYiM0
+I4clzQf<1REGo>4:j<0aLG2
+R5
+Z45 !s105 Serial_To_Parallel_sv_unit
+S1
+R6
+Z46 w1727636818
+Z47 8D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Serial_to_Paralel/Serial_To_Parallel.sv
+Z48 FD:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Serial_to_Paralel/Serial_To_Parallel.sv
+L0 1
+R7
+r1
+!s85 0
+31
+R11
+Z49 !s107 D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Serial_to_Paralel/Serial_To_Parallel.sv|
+Z50 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Serial_to_Paralel/Serial_To_Parallel.sv|
+!i113 0
+R13
+R2
+n@serial_@to_@parallel
+vSerial_To_Parallel_TB
+R12
+R10
+!i10b 1
+!s100 ZIW=U1aTJBjV[`l>NnSh42
+I:Uj0Rel0]ePaRoz:CA^S[2
+R5
+R45
+S1
+R6
+R46
+R47
+R48
+L0 114
+R7
+r1
+!s85 0
+31
+R11
+R49
+R50
+!i113 0
+R13
+R2
+n@serial_@to_@parallel_@t@b
+vtb_Cyclic_Prefix
+R12
+R4
+!i10b 1
+!s100 ]b[5VE]Ylih1j:S8dCiJ73
+I8j225e@YC:XN?oSc^z9Qe3
+R5
+R14
+S1
+R6
+R15
+R16
+R17
+L0 51
+R7
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R13
+R2
+ntb_@cyclic_@prefix

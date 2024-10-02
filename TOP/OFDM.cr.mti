@@ -1,0 +1,112 @@
+D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/CP/Cyclic_Prefix.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/CP/Cyclic_Prefix.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module Cyclic_Prefix
+-- Compiling module tb_Cyclic_Prefix
+
+Top level modules:
+	tb_Cyclic_Prefix
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/complex_multiplier.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/complex_multiplier.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module complex_multiplier
+
+Top level modules:
+	complex_multiplier
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Pulse_Gen.v {1 {vlog -work work -vopt -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Pulse_Gen.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module PULSE_GEN
+
+Top level modules:
+	PULSE_GEN
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Reg_enabled.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Reg_enabled.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module Reg_enabled
+
+Top level modules:
+	Reg_enabled
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/parallel_to_Serial/Parallel_To_Serial.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/parallel_to_Serial/Parallel_To_Serial.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module Parallel_To_Serial
+-- Compiling module Parallel_To_Serial_tb
+
+Top level modules:
+	Parallel_To_Serial_tb
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Clock_Divider/ClkDiv.v {1 {vlog -work work -vopt -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Clock_Divider/ClkDiv.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ClkDiv
+
+Top level modules:
+	ClkDiv
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/IFFT_TOP.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/IFFT_TOP.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module IFFT_TOP
+
+Top level modules:
+	IFFT_TOP
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/TEST_tb.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/TEST_tb.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module fft_tb
+
+Top level modules:
+	fft_tb
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/moduulation/QPSK_mod.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/moduulation/QPSK_mod.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module QPSK_mod
+-- Compiling module qpsk_mod_TB
+
+Top level modules:
+	qpsk_mod_TB
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Serial_to_Paralel/Serial_To_Parallel.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Serial_to_Paralel/Serial_To_Parallel.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module Serial_To_Parallel
+-- Compiling module Serial_To_Parallel_TB
+
+Top level modules:
+	Serial_To_Parallel_TB
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/PG.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/PG.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module PG
+
+Top level modules:
+	PG
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Butterfly_PU.v {1 {vlog -work work -vopt -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Butterfly_PU.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module Butterfly_PU
+
+Top level modules:
+	Butterfly_PU
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/TOP/OFDM_TOP.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/TOP/OFDM_TOP.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module OFDM_TOP
+-- Compiling module OFDM_TOP_TB
+
+Top level modules:
+	OFDM_TOP_TB
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Loadable_Counter.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/Loadable_Counter.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module Loadable_Counter
+-- Compiling module Loadable_Counter_tb
+
+Top level modules:
+	Loadable_Counter_tb
+
+} {} {}} D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Const_Multiplier.sv {1 {vlog -work work -vopt -sv -stats=none D:/EDUCATION/Courses_Train/My_Digital/my_projects/OFDM/MY_RtL/IFFT/Const_Multiplier.sv
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module Const_Multiplier
+
+Top level modules:
+	Const_Multiplier
+
+} {} {}}
